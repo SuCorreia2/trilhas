@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #33475B;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header {
+    background-color: #FFFFFF;
+    height: 80px;  
+    display: flex;
+}
+
+.container-elementos-header {
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-principal {
+    font-size: 24px;
+    color: #0000EE;
+    font-weight: 400;
+}
+
+.label-pesquisa {
+    background: #DB1E8C;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.input-pesquisa {
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+}
+
+::placeholder {
+    color: #FF97D3
+}
+
+.container-trilhas {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 40px 37px 37px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+
+.cards-trilhas {
+    width: calc((100% - 64px) / 3);
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 32px 32px 96px;
+    
+    position: relative;
+}
+
+h2 {
+    color: #364372;
+    margin-bottom: 24px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+.botao {
+    box-sizing: border-box;
+    border: 1px solid #264FEC;
+    padding: 16px;
+    color: #264FEC;
+    position: absolute;
+    bottom: 32px;
+    height: 54px;
+    width: 160px;
+    text-decoration: none;
+    text-align: center;
+   
+}
+
+.botao:hover {
+    background-color: #B0C4DE;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #FFFFFF;
+    height: 110px;  
+    display: flex;
+}
+
+.container-elementos-footer {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .container-logos {
+    display: flex;
+    gap: 24px;
+ }
+
+.container-direita {
+    display: flex;
+    gap: 54px;
+    align-items: center;
+ }
+
+.container-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-links a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ .container-midias {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+ }
+
+ .container-icones {
+    display: flex;
+    gap: 16px;
+ }
